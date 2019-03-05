@@ -1,0 +1,60 @@
+body {
+    background-image: url("assets/images/cheap_diagonal_fabric.png");
+}
+
+.container {
+    padding-bottom: 20px;
+}
+
+/* selects anchor inside nav brand */
+#name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
+
+
+/* selects name button */
+.navbar-brand {
+    background-color: #4aaaa5;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.indexMain {
+    background-color: white;
+}
+
+.aboutMe {
+    margin-top: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.divider {
+    height: 3px;
+    background-color: lightgray;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.bioPic {
+   margin: 0px 16px 0px 0px; 
+}
+
+#footer {
+/* TEXT NEEDS TO BE CENTERED HERE */
+    /* float: none; */
+    /* text-align: center; */
+}
+
+#copyright {
+    /* float: none; */
+    color: white;
+    padding: 10px 25px 10px 25px;
+    /* text-align: center; */
+}
