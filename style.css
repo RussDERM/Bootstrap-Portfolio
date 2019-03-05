@@ -27,7 +27,7 @@ body {
     background-color: white;
 }
 
-.aboutMe {
+.bodyTitle {
     margin-top: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -35,6 +35,7 @@ body {
     font-size: 25px;
 }
 
+/* Horizontal line under .bodyTitle */
 .divider {
     height: 3px;
     background-color: lightgray;
@@ -42,8 +43,23 @@ body {
     border-radius: 3px;
 }
 
+/* Margin for the picture */
 .bioPic {
    margin: 0px 16px 0px 0px; 
+}
+
+/* removes extra padding from the email form  */
+#email {
+    margin: 0px;
+}
+
+/* adds padding between the first and last name forms to it matches the rest of the form */
+#first-name { 
+    padding-right: 8px;
+}
+
+#last-name {
+    padding-left: 8px;
 }
 
 #footer {
