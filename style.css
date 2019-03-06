@@ -9,6 +9,7 @@ body {
 .main {
     margin-bottom: 20px;
 }
+/* NAV BAR STYLING */
 
 /* selects anchor inside nav brand */
 #name {
@@ -36,6 +37,14 @@ body {
     padding: 0px;
 }
 
+/* pads right side nav buttons */
+#navend-pad {
+    padding-right: 25px;
+}
+
+/* PAGE STYLING */
+
+/* main body */
 .indexMain {
     background-color: white;
 }
@@ -80,17 +89,10 @@ body {
     margin-bottom: 20px;
 }
 
-#footer {
-/* TEXT NEEDS TO BE CENTERED HERE */
-    /* float: none; */
-    /* text-align: center; */
-}
-
-#copyright {
-    /* float: none; */
+#copyright { 
+    text-align: center;
     color: white;
     padding: 10px 25px 10px 25px;
-    /* text-align: center; */
 }
 
 /* Portfolio Page Specific Stlying */
